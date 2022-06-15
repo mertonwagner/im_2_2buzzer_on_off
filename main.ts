@@ -1,0 +1,18 @@
+input.onButtonPressed(Button.A, function () {
+    music.playTone(262, music.beat(BeatFraction.Whole))
+    music.playTone(349, music.beat(BeatFraction.Half))
+    music.playTone(440, music.beat(BeatFraction.Double))
+    music.ringTone(262)
+    music.playTone(349, music.beat(BeatFraction.Half))
+    music.playTone(440, music.beat(BeatFraction.Double))
+    music.playTone(349, music.beat(BeatFraction.Half))
+    music.playTone(262, music.beat(BeatFraction.Whole))
+    music.playTone(349, music.beat(BeatFraction.Half))
+})
+input.onButtonPressed(Button.B, function () {
+    music.playTone(349, music.beat(BeatFraction.Half))
+    music.playTone(440, music.beat(BeatFraction.Double))
+    music.playTone(349, music.beat(BeatFraction.Half))
+    music.playTone(294, music.beat(BeatFraction.Whole))
+    music.playTone(349, music.beat(BeatFraction.Half))
+})
